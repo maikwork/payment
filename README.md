@@ -1,1 +1,9 @@
 # payment
+## API
+GET /payment/client/:id
+GET /payment/client/:email
+GET /status/:id
+POST /status/:id?status=new(fail/success/cancel)
+POST /payment/?id=0&email=mail.com&amount=100&currency=$
+GET /cancel/:id
+GET /payment/
