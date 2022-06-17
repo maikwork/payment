@@ -1,0 +1,2 @@
+db:
+  dsn: "postgres://test:test@database:5432/payment?sslmode=disable"
