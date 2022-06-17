@@ -1,7 +1,7 @@
 # payment
 ## API
-GET /payment/client/:id
-GET /payment/client/:email
+GET /payment/client/:id<br/>
+GET /payment/client/:email<br/>
 GET /status/:id
 POST /status/:id?status=new(fail/success/cancel)
 POST /payment/?id=0&email=mail.com&amount=100&currency=$
